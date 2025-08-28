@@ -1,0 +1,11 @@
+{
+  "name": "swish-shot-report",
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
