@@ -1,0 +1,91 @@
+{
+  "branches": {
+    "short": {
+      "name": "Miss Short (Depth – Front Rim)",
+      "diagnosis": ["Sequencing deficit → not generating leverage under the ball."],
+      "corrections": [
+        {
+          "cue": "Position body under the ball to generate leverage",
+          "biomech": "Stacks mass under ball; improves vertical force."
+        }
+      ],
+      "workout": {
+        "anchor": {
+          "name": "Wide Stance Form Shots",
+          "instructions": "Broaden stance, stack sternum over base, rise straight.",
+          "dosage": "3×12"
+        },
+        "reinforcers": [
+          {
+            "name": "Sync Shots",
+            "instructions": "Single-count load→rise→release; no pauses.",
+            "dosage": "3×10"
+          }
+        ]
+      },
+      "checklist": [
+        "Sternum stacked over base on rise",
+        "Single-count timing (no stall)",
+        "Finish index to center of rim"
+      ],
+      "metrics": ["Make % from 10–15 ft", "Perceived effort (1–10) at same distance"]
+    },
+    "long": {
+      "name": "Miss Long (Depth – Back Rim)",
+      "diagnosis": ["Finish issue → wrist not snapping fully."],
+      "corrections": [
+        {
+          "cue": "Snap wrist fully through the center of the rim",
+          "biomech": "Restores distal segment contribution; adds controlled arc."
+        }
+      ],
+      "workout": {
+        "anchor": {
+          "name": "One-Hand Form Shots",
+          "instructions": "Guide hand off; emphasize firm snap + soft land.",
+          "dosage": "3×12"
+        },
+        "reinforcers": [
+          {
+            "name": "Guide Hand Slides",
+            "instructions": "Slide off-hand away with no push at release.",
+            "dosage": "3×10"
+          }
+        ]
+      },
+      "checklist": ["Guide hand non-intrusive", "Full wrist snap at release", "High, soft landings"],
+      "metrics": ["Arc consistency (target 44–47°)", "Back-rim hits per 20 shots (↓)"]
+    },
+    "left_right": {
+      "name": "Miss Left/Right (Side – Off-Line)",
+      "diagnosis": ["Shot path issue → misaligned release axis."],
+      "corrections": [
+        {
+          "cue": "Straight shot path through the side of the body",
+          "biomech": "Keeps ball on sagittal plane; ball crosses center cleanly."
+        }
+      ],
+      "workout": {
+        "anchor": {
+          "name": "Side Backboard Form Shots",
+          "instructions": "Use side square as lane; keep path straight through it.",
+          "dosage": "3×12"
+        },
+        "reinforcers": [
+          {
+            "name": "Front Backboard Form Shots",
+            "instructions": "Aim center-line; eliminate lateral drift.",
+            "dosage": "3×10"
+          }
+        ]
+      },
+      "checklist": ["Sternum tracks midline", "Elbow path on sagittal plane", "Ball crosses center line cleanly"],
+      "metrics": ["Left/Right miss count per 20 (↓)", "Center-hit % (glass or rim)"]
+    }
+  },
+  "parser": {
+    "short": ["short", "front rim", "front-rim", "fell short", "underpower"],
+    "long": ["long", "back rim", "back-rim", "too strong", "overpower"],
+    "left_right": ["miss left", "miss right", "off line", "offline", "side", "drift left", "drift right", "pull", "fade"]
+  }
+}
